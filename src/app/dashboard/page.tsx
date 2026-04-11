@@ -5,10 +5,11 @@ import Navbar from '@/components/Navbar';
 import CourseCard from '@/components/CourseCard';
 import { courses } from '@/data/courses';
 import { mockUser } from '@/data/user';
+import AuthGuard from '@/components/AuthGuard';
 
 export default function DashboardPage() {
   return (
-    <>
+    <AuthGuard>
       <Navbar />
       <main className="flex-1 bg-brand-cream min-h-screen py-10 md:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -77,6 +78,6 @@ export default function DashboardPage() {
         </p>
         <p className="opacity-70">&copy; 2026 Paratattva. All Rights Reserved.</p>
       </footer>
-    </>
+    </AuthGuard>
   );
 }
