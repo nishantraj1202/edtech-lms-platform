@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { EyeIcon, EyeSlashIcon, ExclamationCircleIcon } from '@heroicons/react/24/outline'; // if heroicons exists, otherwise I should use inline SVGs. Let's use simple SVGs just in case.
+
 
 interface InputFieldProps extends React.InputHTMLAttributes<HTMLInputElement> {
   label: string;
