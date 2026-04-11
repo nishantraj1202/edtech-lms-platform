@@ -15,7 +15,7 @@ export interface User {
 export const mockUser: User = {
   id: 'u1',
   name: 'Hrishikesh Das',
-  avatar: '/images/hero.png', // Reusing placeholder
+  avatar: '/images/hero.jpeg', // Reusing placeholder
   enrolledCourses: [
     {
       courseId: 'bhagavad-gita-intro', // Will match the course from courses.ts

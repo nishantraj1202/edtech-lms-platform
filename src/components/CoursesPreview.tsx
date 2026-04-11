@@ -43,7 +43,7 @@ export default function CoursesPreview() {
             <div className="relative w-full aspect-[4/3] mb-8 overflow-hidden rounded-md flex items-center justify-center border border-[#EAE0D5] bg-white">
               {/* Reusing hero image for live course representation, framed in a laptop metaphor if desired, but we'll stick to displaying the image gracefully */}
               <Image
-                src="/images/hero.png"
+                src="/images/hero.jpeg"
                 alt="Live Zoom Classes"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"

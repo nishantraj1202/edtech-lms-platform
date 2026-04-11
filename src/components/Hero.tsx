@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="w-full md:w-1/2 flex justify-center flex-col items-center">
             <div className="relative w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full border-4 border-white shadow-xl overflow-hidden group">
               <Image
-                src="/images/hero.png"
+                src="/images/hero.jpeg"
                 alt="Spiritual Teacher"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-700"

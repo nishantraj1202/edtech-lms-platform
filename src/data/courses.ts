@@ -48,7 +48,7 @@ export const courses: Course[] = [
     students: 1098,
     instructor: 'A.C. Bhaktivedanta Swami Prabhupada',
     instructorBio: 'Founder-Acarya of the International Society for Krishna Consciousness. He translated and commented on over eighty volumes of the Vedas\' most important sacred bhakti texts.',
-    instructorAvatar: '/images/hero.png',
+    instructorAvatar: '/images/hero.jpeg',
     thumbnail: '/images/self-study.png',
     includes: ['Lifetime Access', 'Quizzes & Certificate', 'Over 1000 Enrolled'],
     reviews: [
@@ -86,8 +86,8 @@ export const courses: Course[] = [
     students: 540,
     instructor: 'H.G. Chaitanya Charan Das',
     instructorBio: 'A monk and spiritual author. He has spoken at various international conferences and universities on science and spirituality.',
-    instructorAvatar: '/images/hero.png',
-    thumbnail: '/images/hero.png',
+    instructorAvatar: '/images/hero.jpeg',
+    thumbnail: '/images/hero.jpeg',
     includes: ['Live Zoom Sessions', 'Interactive Q&A', 'Certification Upon Graduation'],
     reviews: [
       { id: 'r3', name: 'Priya K.', rating: 5, comment: 'Incredible systematic study. The live classes are very engaging.' }
@@ -113,7 +113,7 @@ export const courses: Course[] = [
     students: 820,
     instructor: 'H.H. Radhanath Swami',
     instructorBio: 'A spiritual leader and author of The Journey Home, dedicating his life to cultivating devotion and community service worldwide.',
-    instructorAvatar: '/images/hero.png',
+    instructorAvatar: '/images/hero.jpeg',
     thumbnail: '/images/book.png',
     includes: ['Lifetime Access', 'Community Forum'],
     reviews: [],
